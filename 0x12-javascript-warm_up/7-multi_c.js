@@ -6,6 +6,6 @@ if (isNaN(arg) || arg === undefined) {
 } else {
   while (i < arg) {
     console.log('C is fun');
-    i++
+    i++;
   }
 }

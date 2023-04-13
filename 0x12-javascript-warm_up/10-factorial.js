@@ -1,11 +1,9 @@
 #!/usr/bin/node
-let num = process.argv[2];
-let i = num;
-if (isNaN(num)) {
-  console.log(1);
-} else {
-  while (i > 1) {
-    num = num * (i - 1);
-    i--;
-  } console.log(num);
+function factorial (n) {
+  if (isNaN(n) || n === 0) {
+    return (1);
+  }
+  return (n * factorial(n -1));
 }
+
+console.log(factorial(Number(process.argv[2])));

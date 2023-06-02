@@ -1,0 +1,1 @@
+A repo containing solution for ALX task 0x15. JavaScript - Web jQuery
